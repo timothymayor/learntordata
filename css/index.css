@@ -30,7 +30,7 @@ body, html {
   padding-inline: 2rem;
 }
 
-.nav__contents, .links, .links > .menu, .banner-content {
+.nav__contents, .links, .links > .menu, .banner-content, .banner-content_left, .banner-content_right {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,20 +79,89 @@ a:link {
   background-color: #FFFFFF;
 }
 
+.banner-content_left {
+  display: none;
+  justify-content: start;
+}
+
+  .banner-content_right .content {
+    font-weight: 400;
+    
+
+  }
+.banner-content_right .content h1 {
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: -0.055em;
+  font-family: 'Futura Hv BT'
+}
+
+.banner-content_right .content > .overview {
+  font-size: 40px;
+  line-height: 48px;
+  font-family: 'Futura Md BT';
+  margin: 51px 0 34px;
+  color: var(--primary-color);
+}
+.banner-content_right .content > .description {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Futura Bk BT';
+
+}
+
+.price_tag {
+  background: url(../images/price-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 102px;
+height: 107px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 @media (min-width: 1240px) {
   .container {
     padding-inline: 77px;
   }
 
-  .nav__contents > .logo {
-    transform: translateX(306px);
-    -webkit-transform: translateX(306px);
-    -moz-transform: translateX(306px);
-    -ms-transform: translateX(306px);
-    -o-transform: translateX(306px);
-}
+    .nav__contents > .logo {
+      transform: translateX(306px);
+      -webkit-transform: translateX(306px);
+      -moz-transform: translateX(306px);
+      -ms-transform: translateX(306px);
+      -o-transform: translateX(306px);
+  }
 
-.nav__contents .links > .menu > a:link {
-  margin-right: 45px;
-}
+  .nav__contents .links > .menu > a:link {
+    margin-right: 45px;
+  }
+
+  .banner-content_left {
+    display: flex;
+    margin-right: 100px;
+  }
+
+
+   .banner-content_left > img.right {
+    width: 165.43px;
+    height: 147.29px;
+    transform: translateX(-70px);
+    -webkit-transform: translateX(-70px);
+    -moz-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    -o-transform: translateX(-70px);
+  }
+  .banner-content_left > img.left {
+    width: 289.43px;
+    height: 197.29px;
+  }
 }
