@@ -3,73 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Futura&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Futura+Hv+BT&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Futura+Md+BT&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Futura+Bk+BT&display=swap" rel="stylesheet" />
   <link href="./css/index.css" rel="stylesheet" />
   <title>Learntor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-      <div class="nav__contents">
-        <div class="logo">
-          <img src="./images/learntor-logo.png" alt="logo" />
-        </div>
-        <div class="links">
-          <div class="menu">
-            <a href="#!">Home</a>
-            <a href="#!">About us</a>
-            <a href="#!">Trainings</a>
-            <a href="#!">Services</a>
-            <a href="#!">Team</a>
-            <a href="#!">Blog</a>
-            <a href="#!">Contact</a>
-          </div>
-          <a href="#!" class="register">Register</a>
-        </div>
+      <a class="navbar-brand" href="#"><img src="./images/learntor-logo.png" alt="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #0098DA;" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">Trainings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #0098DA;" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-primary" style="color: #0098DA;">Register</button>
+        <!-- <a class="nav-link btn-btn-primary" style="color: #0098DA;" href="#">Register</a> -->
       </div>
     </div>
   </nav>
 
-
+  
   <main>
-    <section class="banner">
+    <section class="container">
+      <div class="row mt-5">
+        <div class="col-md-4" style="text-align: center;">
+          <img src="./images/powerbi.png" style="width: 100px;" alt="">
+          <img src="./images/v22_3.png" style="width: 100px;" alt="">
+        </div>
 
-      <div class="container">
-        <div class="banner-content">
-          <div class="banner-content_left">
-            <img src="./images/v22_2.png" class="left" alt="">
-            <img src="./images/v22_3.png" class="right" alt="">
-          </div>
-          <div class="banner-content_right">
-            <div class="content">
-              <h1>PowerBI in 5 Days</h1>
+        <div class="col-md-6">
+          <h1 class="biin5days">PowerBI in 5 Days</h1>
+          <p class="overview" style="color: #0098DA;">Learn and Earn in Dollars Data Analytics with PowerBI</p>
+          <p class="description">We are now in the 4th Industrial Revolution where 
+            DATA ANALYTICS as a tech skill, is the new oil. This is a skill 
+            required by all organizations for process optimization.PowerBI is 
+            an important tool used in Data Analytics for Data Visualization.
+          </p>
+        </div>
 
-              <p class="overview">Learn and Earn in Dollars
-Data Analytics with PowerBI</p>
-                <p class="description">We are now in the 4th Industrial Revolution where 
-DATA ANALYTICS as a tech skill, is the new oil. This is a skill 
-required by all organizations for process optimization.PowerBI is 
-an important tool used in Data Analytics for Data Visualization. </p>
-
-            </div>
-            <div class="price_tag">
-              <!-- <img src="./images/price-bg.svg" alt="" srcset=""> -->
-              <p class="text">
-                <span>&#8358;</span>
-                <span>4,999 Only</span>
-              </p>
-            </div>
+        <div class="price_tag col-md-2" style="text-align: center;">
+          <div class="price_tag" style="text-align: center;">
+            <p class="text" >
+              <span>&#8358;</span>
+              <span>4,999 Only</span>
+            </p>
           </div>
         </div>
       </div>
-
     </section>
   </main>
   
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
 </html>
