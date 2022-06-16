@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Futura+Hv+BT&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Futura+Md+BT&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Futura+Bk+BT&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="./css/index.css" rel="stylesheet" />
   <title>Learntor</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -23,28 +26,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" style="color: #0098DA;" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" style="color: #0098DA;" aria-current="page" href="#"><b>Home</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">About Us</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>About Us</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">Trainings</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>Trainings</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">Services</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>Services</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">Team</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>Team</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">Blog</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>Blog</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #0098DA;" href="#">Contact</a>
+            <a class="nav-link" style="color: #0098DA;" href="#"><b>Contact</b></a>
           </li>
         </ul>
-        <button class="btn btn-outline-primary" style="color: #0098DA;">Register</button>
+        <button class="btn btn-outline-primary" style=" color:#fff; background-color: #F39237; border: 1px solid #F39237;">Register</button>
         <!-- <a class="nav-link btn-btn-primary" style="color: #0098DA;" href="#">Register</a> -->
       </div>
     </div>
@@ -52,7 +55,7 @@
 
   
   <main>
-    <section class="container">
+    <section class="container pb-5">
       <div class="row mt-5">
         <div class="col-md-4" style="text-align: center;">
           <img src="./images/powerbi.png" style="width: 100px;" alt="">
@@ -80,206 +83,486 @@
       </div>
     </section>
 
-    <!-- Work on this -->
-    <div class="v1_3">
-      <div class="v18_8"></div>
-      <div class="v18_66"></div>
-      <div class="v18_20"></div>
-      <div class="v33_24">
-          <div class="v5_6"></div>
-          <div class="v5_9"></div>
-          <div class="v5_11"></div>
-          <div class="v5_12"></div>
-          <div class="v5_13"></div>
-          
-          <span class="v5_8">Name</span>
-          <span class="v5_15">Email Address</span>
-          <span class="v5_16">Phone number</span>
-          <div class="v5_17"></div>
-          
-          <span class="v5_18">Register</span>
+    <section class="container p-5">
+      <div class="container py-5">
+          <div class="container p-5 card w-75 d-flex justify-content-center">
+            <form class="px-5" style="background-color: #4cb9e7">
+              <div class="form-group pt-5 p-4 d-flex justify-content-center">
+                <input type="email" class="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+              </div>
+              <div class="form-group px-4 d-flex justify-content-center">
+                <input type="password" class="form-control p-3 " id="exampleInputPassword1" placeholder="Email Address">
+              </div>
+              <div class="form-group p-4 d-flex justify-content-center" >
+                <input type="password" class="form-control p-3" id="exampleInputPassword1" placeholder="Phone Number">
+              </div>
+              <div class="d-flex justify-content-center mb-2 pb-2">
+              <button type="submit" class="btn btn d-flex color-block-dark warning-color-dark justify-content-center" style="background-color: #F39237; color: white ;" >Register</button>
+            </div>
+            </form>
+          </div>
+    </div>
+    </section>
+
+    <section class="container">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/v54_2.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/v15_2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/v54_2.png" alt="Third slide">
+          </div>
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
       </div>
-   
-      <div class="v5_23"></div>
-      <div class="v18_37"></div>
-      <div class="name"></div>
-      <div class="name"></div>
-      
-      <span class="v18_2">-Lara George</span>
-      <span class="v18_40">-Lara George</span>
-      
-      <span class="v5_32">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus nunc viverra 
-lorem hendrerit sollicitudin.Urna, quis pharetra, et viverra mauris amet, blandit. 
-Non accumsan scelerisque tortor sit diam risus diam imperdiet vitae. Commodo 
-id scelerisque rhoncus, aliquam, convallis accumsan. 
-</span>
+    </section>
 
-<span class="v18_41">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus nunc viverra 
-lorem hendrerit sollicitudin.Urna, quis pharetra, et viverra mauris amet, blandit. 
-Non accumsan scelerisque tortor sit diam risus diam imperdiet vitae. Commodo 
-id scelerisque rhoncus, aliquam, convallis accumsan. 
-</span>
+    <section class="container p-3">
+      <h1  class="yy"  style="text-align: center;"><b>Testimonials</b></h1>
+    </section>
 
-<span class="v5_31">Testimonials</span>
+      <section class="container pt-3 text-center ">
+  <div class="row d-flx justify-content-center">
+      <div class="car">
+          <div class="row">
+            <div class="col-lg-4 d-flex mb-4 mb-lg-0">
+              <img src="./images/v5_23.png"
+                class=" img-fluid" alt=""  height="100%" />
+            </div>
+            <div class="col-lg-8 text-lg-center p-5" style="background-color: #00b3ff74;">
+              <div class=" pb-2 text-lg-start">
+                <i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
+              </div>
+              <p class="text-muted fw-light mb-4 ml-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+                molestiae numquam quas, voluptates omnis nulla ea odio quia similique
+                corrupti magnam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sapiente eius harum libero exercitationem, vel voluptatum consectetur repudiandae ex odit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi minus fugiat ex fuga quam cupiditate. Recusandae excepturi architecto porro.
+              </p>
+              <p class="fw-bold lead mb-2"><strong>Lara George</strong></p>
+              <p class="fw-bold text-muted mb-0">Product manager</p>
 
-<div class="v5_33"></div>
-<div class="v18_67"></div>
-<div class="v18_21"></div>
-<div class="v5_34"></div>
-<div class="v18_68"></div>
-<div class="v18_22"></div>
-<div class="v5_35"></div>
-<div class="v18_69"></div>
-<div class="v5_36"></div>
-<div class="v18_70"></div>
-<div class="v18_23"></div>
-<div class="v5_37"></div>
-<div class="v18_71"></div>
-<div class="v18_24"></div>
-<div class="v15_2"></div>
-<div class="v18_72"></div>
-<div class="v15_8">
-  <div class="v15_9">
+              <div class="pb-2 text-lg-end">
+                <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
 
+              </div>
+            </div>
+        </div>
+    </div>
   </div>
-</div>
-<div class="v18_42">
-  <div class="v18_43"></div>
-</div>
-<div class="v15_10">
-  <div class="v15_11"></div>
-</div>
-<div class="v18_44">
-  <div class="v18_45"></div>
-</div>
-<div class="v18_6">
-  <div class="v18_7"></div>
-</div>
-<div class="v18_73">
-  <div class="v18_74"></div>
-</div>
-<div class="v18_14">
-  <div class="v18_15"></div>
-</div>
-<div class="v18_75">
-  <div class="v18_76"></div>
-</div>
-<div class="v18_27">
-  <div class="v18_28"></div>
-</div>
-<div class="v18_35">
-  <div class="v18_36"></div>
-</div>
-<div class="v18_18">
-  <div class="v18_19"></div>
-</div>
-<div class="v18_77">
-  <div class="v18_78"></div>
-</div>
+      </section>
 
-<span class="v18_3">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+      <section class="container pt-4 mt-5">
+        <section style="color: #000; background-color: #00b3ff74;">
+          <div class="container py-5">
+        
+            <div class="row text-center">
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="card-body py-4 mt-2">
+                    <div class="d-flex justify-content-center mb-4">
+                      <img src="./images/v18_71.png"
+                        class="rounded-circle shadow-1-strong" width="100" height="100" />
+                    </div>
+                    <h5 class="font-weight-bold">Teresa May</h5>
+                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <p class="mb-2">
+                      <div class=" pb-2 text-lg-start">
+                        <i class="fa fa-quote-left " aria-hidden="true"></i>
+                      </div>Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                      ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                      <div class="pb-2 text-lg-end">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+        
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="card-body py-4 mt-2">
+                    <div class="d-flex justify-content-center mb-4">
+                      <img src="./images/v18_23.png"
+                        class="rounded-circle shadow-1-strong" width="100" height="100" />
+                    </div>
+                    <h5 class="font-weight-bold">Teresa May</h5>
+                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <p class="mb-2">
+                      <div class=" pb-2 text-lg-start">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                      ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                      <div class="pb-2 text-lg-end">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+        
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-0">
+                <div class="card">
+                  <div class="card-body py-4 mt-2">
+                    <div class="d-flex justify-content-center mb-4">
+                      <img src="./images/v18_70.png"
+                        class="rounded-circle shadow-1-strong" width="100" height="100" />
+                    </div>
+                    <h5 class="font-weight-bold">Teresa May</h5>
+                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <p class="mb-2">
+                      <div class=" pb-2 text-lg-start">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                      ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                      <div class="pb-2 text-lg-end">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+        
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
 
-<span class="v18_79">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+      <section class="container pt-4 mt-5">
+        <section style="color: #000; background-color: #00b3ff74;">
+          <div class="container py-5">
+        
+            <div class="row text-center">
+              <div class="col-md-5 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="card-body py-4 mt-2">
+                    <div class="d-flex justify-content-center mb-4">
+                      <img src="./images/v18_24.png"
+                        class="rounded-circle shadow-1-strong" width="100" height="100" />
+                    </div>
+                    <h5 class="font-weight-bold">Teresa May</h5>
+                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <p class="mb-2">
+                      <div class=" pb-2 text-lg-start">
+                        <i class="fa fa-quote-left " aria-hidden="true"></i>
+                      </div>Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                      ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                      <div class="pb-2 text-lg-end">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+        
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
 
-<span class="v18_29">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+              </div>
+              <div class="col-md-5 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="card-body py-4 mt-2">
+                    <div class="d-flex justify-content-center mb-4">
+                      <img src="./images/v18_72.png"
+                        class="rounded-circle shadow-1-strong" width="100" height="100" />
+                    </div>
+                    <h5 class="font-weight-bold">Teresa May</h5>
+                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <p class="mb-2">
+                      <div class=" pb-2 text-lg-start">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                      ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                      <div class="pb-2 text-lg-end">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+        
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
 
-<span class="v18_4">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+      <section class="container pt-4 text-center ">
+        <div class="row d-flx justify-content-center">
+            <div class="car">
+                <div class="row">
+                  <div class="col-lg-4 d-flex mb-4 mb-lg-0">
+                    <img src="./images/v18_37.png"
+                      class=" img-fluid" alt=""  height="100%" />
+                  </div>
+                  <div class="col-lg-8 text-lg-center p-5" style="background-color: #00b3ff74;">
+                    <div class=" pb-2 text-lg-start">
+                      <i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <p class="text-muted fw-light mb-4 ml-5">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+                      molestiae numquam quas, voluptates omnis nulla ea odio quia similique
+                      corrupti magnam.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sapiente eius harum libero exercitationem, vel voluptatum consectetur repudiandae ex odit?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi minus fugiat ex fuga quam cupiditate. Recusandae excepturi architecto porro.
+                    </p>
+                    <p class="fw-bold lead mb-2"><strong>Lara George</strong></p>
+                    <p class="fw-bold text-muted mb-0">Product manager</p>
+      
+                    <div class="pb-2 text-lg-end">
+                      <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
+      
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+            </section>
 
-<span class="v18_80">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+            <section class="container pt-4 mt-5">
+              <section style="color: #000; background-color: #00b3ff74;">
+                <div class="container py-5">
+              
+                  <div class="row text-center">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="card-body py-4 mt-2">
+                          <div class="d-flex justify-content-center mb-4">
+                            <img src="./images/v18_71.png"
+                              class="rounded-circle shadow-1-strong" width="100" height="100" />
+                          </div>
+                          <h5 class="font-weight-bold">Teresa May</h5>
+                          <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                          <ul class="list-unstyled d-flex justify-content-center">
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                          </ul>
+                          <p class="mb-2">
+                            <div class=" pb-2 text-lg-start">
+                              <i class="fa fa-quote-left " aria-hidden="true"></i>
+                            </div>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                            ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                            <div class="pb-2 text-lg-end">
+                              <i class="fa fa-quote-right" aria-hidden="true"></i>
+              
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="card-body py-4 mt-2">
+                          <div class="d-flex justify-content-center mb-4">
+                            <img src="./images/v18_23.png"
+                              class="rounded-circle shadow-1-strong" width="100" height="100" />
+                          </div>
+                          <h5 class="font-weight-bold">Teresa May</h5>
+                          <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                          <ul class="list-unstyled d-flex justify-content-center">
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                          </ul>
+                          <p class="mb-2">
+                            <div class=" pb-2 text-lg-start">
+                              <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                            ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                            <div class="pb-2 text-lg-end">
+                              <i class="fa fa-quote-right" aria-hidden="true"></i>
+              
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-0">
+                      <div class="card">
+                        <div class="card-body py-4 mt-2">
+                          <div class="d-flex justify-content-center mb-4">
+                            <img src="./images/v18_70.png"
+                              class="rounded-circle shadow-1-strong" width="100" height="100" />
+                          </div>
+                          <h5 class="font-weight-bold">Teresa May</h5>
+                          <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                          <ul class="list-unstyled d-flex justify-content-center">
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                            </li>
+                          </ul>
+                          <p class="mb-2">
+                            <div class=" pb-2 text-lg-start">
+                              <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                            ad velit ab hic tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam neque assumenda ipsum temporibus omnis laboriosam incidunt dignissimos eos repudiandae.
+                            <div class="pb-2 text-lg-end">
+                              <i class="fa fa-quote-right" aria-hidden="true"></i>
+              
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
 
-<span class="v18_30">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+            <footer class="text-center mt-5 pt-3 pb-3"  style="background-color: #00b3ff74; color: white;">
 
-<span class="v18_5">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+              <h6>COPYRIGHT 2020 LEARNTOR LIMITED</h6>
 
-<span class="v18_81">Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. 
-Pellentesque feugiat id 
-dignissim volutpat morbi. 
-Condimentum duis nec 
-maecenas sed sed vitae 
-vestibulum est diam.</span>
+            </footer>
 
-<div class="v18_11">
-  <span class="v18_10">-Lara George</span>
-</div>
-<div class="v18_82">
-  <span class="v18_83">-Lara George</span>
-</div>
-<div class="v18_31">
-  <span class="v18_32">-Lara George</span>
-</div>
-<div class="v18_12">
-  <span class="v18_13">-Lara George</span>
-</div>
-<div class="v18_84">
-  <span class="v18_85">-Lara George</span>
-</div>
-<div class="v18_33">
-  <span class="v18_34">-Lara George</span>
-</div>
-<div class="v18_16">
-  <span class="v18_17">-Lara George</span>
-</div>
-<div class="v18_86">
-  <span class="v18_87">-Lara George</span>
-</div>
-<div class="v18_88"></div>
+    <!-- Work on this -->
 
-<span class="v18_89">Copyright 2022 Learntor Limited</span>
-
-<div class="v54_2"></div>
-<div class="v54_6">
-    <div class="v54_3"></div>
-    <div class="v54_4"></div>
-    <div class="v54_5"></div>
-</div>
-<div class="v54_9">
-    <div class="v54_10"></div>
-</div>
-<div class="name"></div>
-</div>
     
 </main>
   
