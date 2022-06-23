@@ -12,6 +12,100 @@
     text-shadow:2px 2px #333;
   }
 
+  .btn btn-primary btn-lg {
+    width: 593px;
+    height: 76px;
+    margin: 50px 403px 105px 424px;
+    object-fit: contain;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #F39237;
+    border-color: #F39237;
+  }
+
+  .btn-outline-success {
+    color: #fff;
+    background-color: #F39237;
+    border-color: #F39237;
+  }
+
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+/*About
+.about{
+	margin: 0;
+}
+.about h2{
+	color:#F97300;
+	margin: 0;	
+}
+.about p{
+	 height: 0;
+	 width: 0%;
+	 margin: 0;
+}
+*/
+
+/*Mercy*/
+  .mercy{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    padding: 49px 46px 33px 22px;
+    object-fit: contain;
+    background-color: #e4eff3;
+  }
+  .mercy h1{
+    color:#F97300;
+    margin: 2em;
+  }
+  .mercy img{
+    height: 90%;
+    width: 95%;
+    border-radius: 0%
+  }
+  .mercy span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+  }
+  .mercy .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+  }
+  .mercy .desc h3{
+    color: #10828C;
+  }
+  .mercy .desc p{
+    line-height:2;
+    color:#888;
+  }
+  .explain-more {
+    margin: 2em;
+  }
+
+  /*Partners*/
+.partners{
+  margin: 4em 0;
+     position: relative; 
+ }
+ .partners h1{
+  color:#000;
+  margin: 0.2em; 
+ }
+ .partners img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em; 
+ }
 
 /* FAQ’S */
 .faqs {
