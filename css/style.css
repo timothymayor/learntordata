@@ -11,3 +11,14 @@
     color:white;
     text-shadow:2px 2px #333;
   }
+
+
+/* FAQ’S */
+.faqs {
+  width: 1440px;
+  height: 1440px;
+  margin: 1188px 0 0;
+  padding: 42px 196px 70px 188px;
+  background-color: rgba(0, 152, 218, 0.5);
+}
+
