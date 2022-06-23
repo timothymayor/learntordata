@@ -1,6 +1,6 @@
 # learntordata 
 
-![Landing-page](Frame-42.png)
+![Landing-page](./assets/Frame-42.png)
 
 
 ## Figma file 
